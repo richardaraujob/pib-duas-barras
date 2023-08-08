@@ -1,0 +1,35 @@
+.post-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.post-content img {
+  margin-top: 50px;
+}
+
+.post-content h1 {
+  font-weight: 500;
+  margin: 50px 0;
+}
+
+.date-and-at {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.actions a,
+.actions button {
+  background-color: var(--green);
+  color: var(--white);
+  font-size: 14px;
+  padding: 8px 16px;
+  text-decoration: none;
+}

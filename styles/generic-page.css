@@ -1,0 +1,45 @@
+.background-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("https://images.unsplash.com/photo-1507692049790-de58290a4334?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 200px 0;
+}
+
+.background-img h1 {
+  color: var(--white);
+  font-size: 38px;
+  font-weight: 500;
+}
+
+.create-live {
+  background-color: var(--green);
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 24px;
+  padding: 8px 16px;
+  margin: 36px auto;
+  transition: all 0.3s;
+}
+
+.container-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  background-color: var(--gray-light);
+  padding: 100px 16px;
+}
+
+.container-content-grid {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  background-color: var(--gray-light);
+  padding: 100px 16px;
+}

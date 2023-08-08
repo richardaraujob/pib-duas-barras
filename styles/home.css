@@ -1,0 +1,92 @@
+.banner {
+  height: calc(75vh - 104px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../public/images/igreja.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-clip: border-box;
+  text-align: center;
+  padding: 100px 16px;
+}
+
+.banner h1 {
+  color: var(--white);
+  font-weight: 500;
+  font-size: 38px;
+}
+
+.home-blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  background-color: var(--gray-light);
+  padding: 75px 0;
+}
+
+.background-white {
+  background-color: var(--white);
+}
+
+.home-blog h1 {
+  text-align: center;
+}
+
+.home-blog section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 0 16px;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("../public/images/newsletter.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 150px 16px;
+}
+
+.newsletter span {
+  color: var(--green);
+  font-size: 18px;
+}
+
+.newsletter h1 {
+  color: var(--white);
+  font-weight: 500;
+}
+
+.newsletter form {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background-color: var(--white);
+  border-radius: 8px;
+  padding: 4px;
+}
+
+.newsletter form input {
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+}
+
+.newsletter form button {
+  background-color: var(--green);
+  color: var(--white);
+  font-weight: 700;
+  border-radius: 4px;
+  padding: 8px 16px;
+}

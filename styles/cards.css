@@ -1,0 +1,149 @@
+.event-card {
+  position: relative;
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: wrap;
+  background-color: var(--gray-dark);
+  color: var(--white);
+  border-radius: 8px;
+  padding: 16px;
+  font-weight: 700;
+}
+
+.delete-btn {
+  font-weight: 700;
+  font-size: 16px;
+  background-color: var(--green);
+  color: var(--white);
+  padding: 6px 12px;
+}
+
+.event-card div,
+.info-card div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.event-card p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+}
+
+.event-card p span.marker {
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: var(--green);
+  border-radius: 50%;
+}
+
+.event-card span {
+  font-size: 24px;
+}
+
+.info-card {
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  background-color: var(--white);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.info-card p {
+  font-size: 18px;
+}
+
+.info-card span {
+  font-weight: 700;
+}
+
+.live-card {
+  width: 100%;
+  min-width: 255px;
+  max-width: 358px;
+  background-color: var(--white);
+  border-radius: 8px;
+}
+
+.live-card img {
+  max-width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.live-card div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 16px;
+}
+
+.live-card div a {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--gray-dark);
+}
+
+.live-card div span {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.live-card div span p {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.post-card {
+  width: 100%;
+  min-width: 255px;
+  max-width: 358px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  border-radius: 8px;
+  padding-bottom: 16px;
+}
+
+.post-card img {
+  max-width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.post-card p {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 16px;
+}
+
+.post-card a {
+  display: block;
+  align-self: flex-start;
+  background-color: var(--black);
+  color: var(--white);
+  font-size: 16px;
+  padding: 8px 18px;
+  margin-left: 16px;
+  border-radius: 18px;
+  text-decoration: none;
+  transition: all 0.3s;
+  margin-top: auto;
+}
+
+.post-card a:hover {
+  opacity: 0.85;
+}
