@@ -30,7 +30,6 @@ export default function Infos() {
     });
   }, [auth]);
 
-  console.log(infos);
   return (
     <div>
       <Header />

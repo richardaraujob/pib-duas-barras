@@ -93,7 +93,7 @@ export default function Header() {
             </li>
 
             <li>
-              <Link href="lives">Transmissões</Link>
+              <Link href="/lives">Transmissões</Link>
             </li>
 
             {user && (
