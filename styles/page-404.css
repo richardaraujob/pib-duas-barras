@@ -1,0 +1,39 @@
+.page-404 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 44px;
+  padding: 0 16px;
+}
+
+.page-404 h1 {
+  font-size: 66px;
+}
+
+.page-404 p {
+  font-size: 26px;
+}
+
+.page-404 a {
+  background-color: var(--green);
+  color: var(--white);
+  font-size: 18px;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.page-404 a:hover {
+  opacity: 0.85;
+}
+
+@media (max-width: 400px) {
+  .page-404 h1 {
+    font-size: 36px;
+  }
+
+  .page-404 p {
+    font-size: 18px;
+  }
+}
