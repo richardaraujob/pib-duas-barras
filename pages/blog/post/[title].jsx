@@ -17,6 +17,7 @@ import Header from "../../../components/Header";
 
 import "../../../styles/post.css";
 import "../../../styles/global.css";
+import Head from "next/head";
 
 Post.getInitialProps = ({ query }) => {
   return {
@@ -86,6 +87,11 @@ export default function Post(props) {
 
   return (
     <div>
+      <Head>
+        <title>{post && post.length !== 0 && post.title}</title>
+        <meta property="og:title" content="My page title" key="title" />
+      </Head>
+
       <Header />
 
       {post && post.length !== 0 && (

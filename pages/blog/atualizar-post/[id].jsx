@@ -20,6 +20,7 @@ import "../../../styles/global.css";
 
 const ReactQuill = dynamic(() => import("react-quill"), { ssr: false });
 import "react-quill/dist/quill.snow.css";
+import Head from "next/head";
 
 const modules = {
   toolbar: [
@@ -126,6 +127,11 @@ export default function UpdatePost(props) {
 
   return (
     <div>
+      <Head>
+        <title>PIB Duas Barras | Atualizar post</title>
+        <meta property="og:title" content="My page title" key="title" />
+      </Head>
+
       <Header />
 
       <div className="create-post">

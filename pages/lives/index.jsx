@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -31,6 +32,11 @@ export default function Lives() {
   }, [auth]);
   return (
     <div>
+      <Head>
+        <title>PIB Duas Barras | Transmissões</title>
+        <meta property="og:title" content="My page title" key="title" />
+      </Head>
+
       <Header />
 
       <main className="content">

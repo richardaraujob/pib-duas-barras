@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 import { useState } from "react";
 
 import { useAuthentication } from "../hooks/useAuthentication";
@@ -35,6 +37,11 @@ export default function Admin() {
 
   return (
     <div>
+      <Head>
+        <title>PIB Duas Barras | Admin</title>
+        <meta property="og:title" content="My page title" key="title" />
+      </Head>
+
       <Header />
 
       <main className="login-container">

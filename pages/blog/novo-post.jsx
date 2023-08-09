@@ -11,6 +11,7 @@ import { onAuthStateChanged } from "firebase/auth";
 import { useRouter } from "next/router";
 
 import dynamic from "next/dynamic";
+import Head from "next/head";
 
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
@@ -107,6 +108,11 @@ export default function CreatePost() {
 
   return (
     <div>
+      <Head>
+        <title>PIB Duas Barras | Novo post</title>
+        <meta property="og:title" content="My page title" key="title" />
+      </Head>
+
       <Header />
 
       <main className="create-post">

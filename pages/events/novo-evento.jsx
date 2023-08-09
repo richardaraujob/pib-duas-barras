@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 import { useEffect, useState } from "react";
 
 import { useInsertDocument } from "../../hooks/useInsertDocument";
@@ -52,6 +54,11 @@ export default function CreateEvent() {
 
   return (
     <div>
+      <Head>
+        <title>PIB Duas Barras | Novo evento</title>
+        <meta property="og:title" content="My page title" key="title" />
+      </Head>
+
       <Header />
 
       <main className="create-post">

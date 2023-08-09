@@ -1,5 +1,6 @@
 "user client";
 
+import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -50,6 +51,11 @@ export default function App() {
 
   return (
     <div>
+      <Head>
+        <title>PIB Duas Barras | Home</title>
+        <meta property="og:title" content="My page title" key="title" />
+      </Head>
+
       <Header />
 
       <main>

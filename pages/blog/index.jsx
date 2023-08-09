@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -27,6 +28,11 @@ export default function Blog() {
   }, [auth]);
   return (
     <div>
+      <Head>
+        <title>PIB Duas Barras | Blog</title>
+        <meta property="og:title" content="My page title" key="title" />
+      </Head>
+
       <Header />
 
       <main className="content">

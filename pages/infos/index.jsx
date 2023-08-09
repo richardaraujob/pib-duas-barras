@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Link from "next/link";
 
 import { useEffect, useState } from "react";
@@ -32,6 +33,11 @@ export default function Infos() {
 
   return (
     <div>
+      <Head>
+        <title>PIB Duas Barras | Informações</title>
+        <meta property="og:title" content="My page title" key="title" />
+      </Head>
+
       <Header />
 
       <main className="content">
