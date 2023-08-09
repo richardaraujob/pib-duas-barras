@@ -34,7 +34,7 @@ export default function Events() {
   return (
     <div>
       <Head>
-        <title>PIB Duas Barras | Eventos</title>
+        <title>Eventos | PIB Duas Barras</title>
         <meta property="og:title" content="My page title" key="title" />
       </Head>
 

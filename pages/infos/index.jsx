@@ -34,7 +34,7 @@ export default function Infos() {
   return (
     <div>
       <Head>
-        <title>PIB Duas Barras | Informações</title>
+        <title>Informações | PIB Duas Barras</title>
         <meta property="og:title" content="My page title" key="title" />
       </Head>
 

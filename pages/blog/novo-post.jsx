@@ -109,7 +109,7 @@ export default function CreatePost() {
   return (
     <div>
       <Head>
-        <title>PIB Duas Barras | Novo post</title>
+        <title>Novo post | PIB Duas Barras</title>
         <meta property="og:title" content="My page title" key="title" />
       </Head>
 

@@ -33,7 +33,7 @@ export default function Lives() {
   return (
     <div>
       <Head>
-        <title>PIB Duas Barras | Transmissões</title>
+        <title>Transmissões | PIB Duas Barras</title>
         <meta property="og:title" content="My page title" key="title" />
       </Head>
 

@@ -70,7 +70,7 @@ export default function CreateLive() {
   return (
     <div>
       <Head>
-        <title>PIB Duas Barras | Nova transmissão</title>
+        <title>Nova transmissão | PIB Duas Barras</title>
         <meta property="og:title" content="My page title" key="title" />
       </Head>
 

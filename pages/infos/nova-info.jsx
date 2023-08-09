@@ -58,7 +58,7 @@ export default function CreateInfo() {
   return (
     <div>
       <Head>
-        <title>PIB Duas Barras | Nova informação</title>
+        <title>Nova informação | PIB Duas Barras</title>
         <meta property="og:title" content="My page title" key="title" />
       </Head>
 

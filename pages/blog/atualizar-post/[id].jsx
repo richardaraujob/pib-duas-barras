@@ -128,7 +128,7 @@ export default function UpdatePost(props) {
   return (
     <div>
       <Head>
-        <title>PIB Duas Barras | Atualizar post</title>
+        <title>Atualizar post | PIB Duas Barras</title>
         <meta property="og:title" content="My page title" key="title" />
       </Head>
 

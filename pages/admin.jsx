@@ -38,7 +38,7 @@ export default function Admin() {
   return (
     <div>
       <Head>
-        <title>PIB Duas Barras | Admin</title>
+        <title>Admin | PIB Duas Barras</title>
         <meta property="og:title" content="My page title" key="title" />
       </Head>
 

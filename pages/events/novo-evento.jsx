@@ -55,7 +55,7 @@ export default function CreateEvent() {
   return (
     <div>
       <Head>
-        <title>PIB Duas Barras | Novo evento</title>
+        <title>Novo evento | PIB Duas Barras</title>
         <meta property="og:title" content="My page title" key="title" />
       </Head>
 

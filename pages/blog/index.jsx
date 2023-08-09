@@ -29,7 +29,7 @@ export default function Blog() {
   return (
     <div>
       <Head>
-        <title>PIB Duas Barras | Blog</title>
+        <title>Blog | PIB Duas Barras</title>
         <meta property="og:title" content="My page title" key="title" />
       </Head>
 
