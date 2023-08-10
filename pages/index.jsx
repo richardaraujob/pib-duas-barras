@@ -52,7 +52,7 @@ export default function App() {
   return (
     <div>
       <Head>
-        <title>Home | PIB Duas Barras </title>
+        <title>Primeira Igreja Batista de Duas Barras</title>
         <meta property="og:title" content="My page title" key="title" />
       </Head>
 
